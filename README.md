@@ -1,4 +1,4 @@
-# Virtual Universe Extenral Tools
+# Virtual Universe External Tools
 
 This repository contains tools that can be used to help make running Virtual Universe easier while enhancing the features that you can offer your users.
 
