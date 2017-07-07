@@ -1,0 +1,27 @@
+To help ensure your machine does not run out of memory while running your grid, the shell clearcache.sh script and these instructions are being provided to help you deal with a bug
+created by Mono in which it has little to no more memory space to use.  THis bug was introduced by mono-project in recent updates.
+
+The script will ensure all necessary caches are cleared in Linux which will help you get around this bug.
+
+To set the script up simply follow these steps:
+
+1. Open a terminal and do sudo nano /etc/crontab
+
+2. Below everything else in the file enter the following line:
+
+0  2  *  *  * username /path/to/clearcache.sh
+
+NOTE: Additionally you could make the cronjob run hourly by doing:
+
+@hourly username /path/to/clearcache.sh
+
+click cntrl + x and then y and enter to save.
+
+NOTE: Make sure to change username to your username and /path/to/ to the path you have saved the clearcache.sh script to.
+
+3. Make sure to set the file permissions on clearcache.sh to 0755 and tick the box to allow executable.  If you do not do this it will not run.
+
+Thats it now the cronjob will run the script and you should not have any more issues with mono running out of memory.  
+
+If you have questions you can email me at emperor@secondgalaxy.com and I will be glad to help.
+
