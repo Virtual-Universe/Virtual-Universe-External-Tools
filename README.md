@@ -2,6 +2,10 @@
 
 This repository contains tools that can be used to help make running Virtual Universe easier while enhancing the features that you can offer your users.
 
+The tools provided in this repository are used by the Second Galaxy Development Team on our grid and region servers for Second Galaxy!
+
+
+
 # Copyright and Ownership
 
 The Virtual Universe Open Source Project, the name Virtual Universe, the Virtual Universe logos and marks are the exclusive property of the Second Galaxy Development Team.
