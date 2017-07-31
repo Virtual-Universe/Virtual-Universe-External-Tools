@@ -17,6 +17,8 @@ sudo apt-get update
 # Secure Database Server
 sudo mysql_secure_installation
 sudo apt-get update
+# Restart the database server
+sudo systemctl restart mysql.service
 # Install Git
 sudo apt-get install git-core -y
 sudo apt-get update
