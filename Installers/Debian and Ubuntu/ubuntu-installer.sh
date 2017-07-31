@@ -19,7 +19,7 @@ sudo apt-get update
 sudo apt-get install referenceassemblies-pcl
 sudo apt-get update
 #Install mono certificates
-sudo apt-get install mono-certificates-ca
+sudo apt-get install ca-certificates-mono
 sudo apt-get update
 # Install MySQL Server
 sudo apt-get install mysql-server
