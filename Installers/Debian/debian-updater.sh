@@ -5,7 +5,7 @@
 # July 9, 2016
 
 # Check for updates for your Linux flavor
-sudo apt-get update
+sudo apt-get update && sudo apt-get upgrade -y
 # Getting updates for Virtual Universe
 cd /
 git pull https://github.com/Virtual-Universe/Virtual-Universe.git
