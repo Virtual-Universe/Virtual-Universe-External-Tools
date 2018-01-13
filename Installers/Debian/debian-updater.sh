@@ -1,3 +1,4 @@
+#!/bin/bash
 # This installer is to allow a fast update of
 # Virtual Universe on both debian and Ubuntu
 # The Idea came from WhiteCore-Sim which we give many thanks
